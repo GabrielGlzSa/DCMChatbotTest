@@ -1,0 +1,91 @@
+{"input": "My name is Mike. You can reach me at mike@lawfirm.com or 555-123-4567.", "entities": [{"name": "Mike", "email": "mike@lawfirm.com", "phone": "555-123-4567"}]}
+{"input": "Contact: Sarah, sarah.dental@gmail.com, phone 5554442211.", "entities": [{"name": "Sarah", "email": "sarah.dental@gmail.com", "phone": "5554442211"}]}
+{"input": "Im John, email john@builditnow.com.", "entities": [{"name": "John", "email": "john@builditnow.com"}]}
+{"input": "Phone number is 222-333-4444.", "entities": [{"phone": "222-333-4444"}]}
+{"input": "My email is lisa@smiles.com and my name is Lisa.", "entities": [{"name": "Lisa", "email": "lisa@smiles.com"}]}
+{"input": "Reach me at 8885551212.", "entities": [{"phone": "8885551212"}]}
+{"input": "Sure, contact dan@contractorplus.com for more info.", "entities": [{"email": "dan@contractorplus.com"}]}
+{"input": "Name: Carla, phone 321-654-9870.", "entities": [{"name": "Carla", "phone": "321-654-9870"}]}
+{"input": "Email is leo@locallegalhelp.com.", "entities": [{"email": "leo@locallegalhelp.com"}]}
+{"input": "My name is Brian and my email is brian@smallsuccess.biz.", "entities": [{"name": "Brian", "email": "brian@smallsuccess.biz"}]}
+{"input": "My name is Mike, Im a lawyer. You can reach me at mike@lawfirm.com or 555-123-4567.", "entities": [{"name": "Mike", "profession": "lawyer", "email": "mike@lawfirm.com", "phone": "555-123-4567"}]}
+{"input": "Contact: Sarah, dentist, sarah.dental@gmail.com, phone 5554442211.", "entities": [{"name": "Sarah", "profession": "dentist", "email": "sarah.dental@gmail.com", "phone": "5554442211"}]}
+{"input": "Im John, a small business owner, email john@builditnow.com.", "entities": [{"name": "John", "profession": "business", "email": "john@builditnow.com"}]}
+{"input": "Phone number is 222-333-4444. Im a contractor.", "entities": [{"phone": "222-333-4444", "profession": "contractor"}]}
+{"input": "My email is lisa@smiles.com, my name is Lisa and I’m a dentist.", "entities": [{"name": "Lisa", "email": "lisa@smiles.com", "profession": "dentist"}]}
+{"input": "Reach me at 8885551212. I work as a lawyer.", "entities": [{"phone": "8885551212", "profession": "lawyer"}]}
+{"input": "Sure, contact dan@contractorplus.com. I’m a contractor.", "entities": [{"email": "dan@contractorplus.com", "profession": "contractor"}]}
+{"input": "Name: Carla, phone 321-654-9870. I own a small business.", "entities": [{"name": "Carla", "phone": "321-654-9870", "profession": "business"}]}
+{"input": "Email is leo@locallegalhelp.com. I’m an attorney.", "entities": [{"email": "leo@locallegalhelp.com", "profession": "attorney"}]}
+{"input": "My name is Brian, I’m a dentist, and my email is brian@smallsuccess.biz.", "entities": [{"name": "Brian", "profession": "dentist", "email": "brian@smallsuccess.biz"}]}
+{"input": "Hi, my name is Anna.", "entities": [{"name": "Anna"}]}
+{"input": "Im a contractor looking for marketing help.", "entities": [{"profession": "contractor"}]}
+{"input": "You can reach me at anna.contractor@example.com.", "entities": [{"email": "anna.contractor@example.com"}]}
+{"input": "My phone is 555-987-6543.", "entities": [{"phone": "555-987-6543"}]}
+{"input": "Hello, I’m Tom and I run a small business.", "entities": [{"name": "Tom", "profession": "business"}]}
+{"input": "Contact me at tom.biz@mail.com for details.", "entities": [{"email": "tom.biz@mail.com"}]}
+{"input": "I’m a dentist by profession.", "entities": [{"profession": "dentist"}]}
+{"input": "This is Lisa, my email is lisa.dentist@example.org.", "entities": [{"name": "Lisa", "email": "lisa.dentist@example.org"}]}
+{"input": "Reach me at 444-555-6666.", "entities": [{"phone": "444-555-6666"}]}
+{"input": "Hi, I’m an attorney interested in your SEO services.", "entities": [{"profession": "attorney"}]}
+{"input": "My name is Mark and my phone number is 777-888-9999.", "entities": [{"name": "Mark", "phone": "777-888-9999"}]}
+{"input": "You can email me at mark.lawyer@firm.com.", "entities": [{"email": "mark.lawyer@firm.com"}]}
+{"input": "I’m a small business owner trying to improve my online presence.", "entities": [{"profession": "business"}]}
+{"input": "Name’s Julia.", "entities": [{"name": "Julia"}]}
+{"input": "Call me at 1234567890 anytime.", "entities": [{"phone": "1234567890"}]}
+{"input": "Hello, this is Robert, a contractor.", "entities": [{"name": "Robert", "profession": "contractor"}]}
+{"input": "My email is robert.contractor@mail.com.", "entities": [{"email": "robert.contractor@mail.com"}]}
+{"input": "Hi, I’m Sarah.", "entities": [{"name": "Sarah"}]}
+{"input": "I’m a dentist looking to grow my practice.", "entities": [{"profession": "dentist"}]}
+{"input": "Contact info: sarah.dentist@example.com and phone 321-123-4567.", "entities": [{"email": "sarah.dentist@example.com", "phone": "321-123-4567"}]}
+{"input": "Hello there!", "entities": []}
+{"input": "Good morning", "entities": []}
+{"input": "Hi", "entities": []}
+{"input": "Hey, how are you?", "entities": []}
+{"input": "What’s up?", "entities": []}
+{"input": "I need help with my business", "entities": []}
+{"input": "Can you assist me?", "entities": []}
+{"input": "I have a question about your services", "entities": []}
+{"input": "I’m interested in learning more", "entities": []}
+{"input": "Please provide more information", "entities": []}
+{"input": "I would like to schedule a call", "entities": []}
+{"input": "Can I get a quote?", "entities": []}
+{"input": "I’m looking for a consultation", "entities": []}
+{"input": "What services do you provide?", "entities": []}
+{"input": "How can I improve my social media presence?", "entities": []}
+{"input": "Could you provide tips on customer service?", "entities": []}
+{"input": "What are the best practices for email marketing?", "entities": []}
+{"input": "I'm looking for advice on content creation.", "entities": []}
+{"input": "Can you suggest tools for project management?", "entities": []}
+{"input": "What are effective SEO strategies?", "entities": []}
+{"input": "How do I track my website analytics?", "entities": []}
+{"input": "I need help with lead generation.", "entities": []}
+{"input": "What are the benefits of using social media for business?", "entities": []}
+{"input": "Can you explain the importance of branding?", "entities": []}
+{"input": "How can I enhance my customer engagement?", "entities": []}
+{"input": "What are the latest trends in digital marketing?", "entities": []}
+{"input": "I want to improve my online reputation.", "entities": []}
+{"input": "Can you help me with crisis management?", "entities": []}
+{"input": "What are the key elements of a successful website?", "entities": []}
+{"input": "How do I optimize my content for search engines?", "entities": []}
+{"input": "What tools can I use for email automation?", "entities": []}
+{"input": "Hello, I'm Emily Davis and my email is emily.davis@lawfirm.com. How can I better manage my cases?", "entities": [{"name": "Emily Davis", "email": "emily.davis@lawfirm.com", "profession": "lawyer"}]}
+{"input": "My name is John Smith and I run a small construction business. What software can I use for project management?", "entities": [{"name": "John Smith", "profession": "contractor"}]}
+{"input": "This is Sarah Brown, a dentist. How can I improve patient retention?", "entities": [{"name": "Sarah Brown", "profession": "dentist"}]}
+{"input":"I'm Mike Johnson, email mike.johnson@dentalclinic.com. Can you help me with marketing strategies?", "entities": [{"name": "Mike Johnson", "email": "mike.johnson@dentalclinic.com", "profession": "dentist"}]}
+{"input": "My phone number is 555-123-4567. I'm Laura Carter, a freelance designer looking for business growth tips.", "entities": [{"name": "Laura Carter", "phone": "555-123-4567", "profession": "business"}]}
+{"input": "I'm Alex Green, and my email is alex.green@buildright.com. What are the best project management tools?", "entities": [{"name": "Alex Green", "email": "alex.green@buildright.com", "profession": "contractor"}]}
+{"input": "Hi, I'm Jessica Taylor, a lawyer. Can you suggest some good case management software?", "entities": [{"name": "Jessica Taylor", "profession": "lawyer"}]}
+{"input": "I'm Peter White, a dentist. How can I improve my clinic's online presence?", "entities": [{"name": "Peter White", "profession": "dentist"}]}
+{"input": "My name is Rachel Adams, a general contractor. How do I market my services to a wider audience?", "entities": [{"name": "Rachel Adams", "profession": "contractor"}]}
+{"input": "My email is james.morgan@legalexperts.com. I'm a lawyer seeking advice on client management.", "entities": [{"name": "James Morgan", "email": "james.morgan@legalexperts.com", "profession": "lawyer"}]}
+{"input": "My name is Laura Scott, and I own a local café. How can I attract more customers?", "entities": [{"name": "Laura Scott", "profession": "business"}]}
+{"input": "I'm Chris Brown, a dentist. What are effective ways to handle patient records?", "entities": [{"name": "Chris Brown", "profession": "dentist"}]}
+{"input": "This is Tyler Wilson. My email is tyler.wilson@homeprojects.com. How can I manage my contractor team better?", "entities": [{"name": "Tyler Wilson", "email": "tyler.wilson@homeprojects.com", "profession": "contractor"}]}
+{"input": "I'm Samantha Williams. I operate a boutique store. How can I enhance my branding?", "entities": [{"name": "Samantha Williams", "profession": "business"}]}
+{"input": "Hi, I want to know about the services you provide", "entities": []}
+{"input": "Hello, I'm interested in learning more about your products.", "entities": []}
+{"input": "Hey, can you tell me about your pricing options?", "entities": []}
+{"input": "Hello, I'm looking for information on your support services.", "entities": []}
+{"input": "Hey, I have a question about billing.", "entities": []}
+{"input": "Hi, can you explain your return policy?", "entities": []}
