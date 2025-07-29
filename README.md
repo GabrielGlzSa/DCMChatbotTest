@@ -34,12 +34,10 @@ cd llama3-chatbot
 
 For security, all API keys are stored in an .env file. You need to fill the following information.
 
-```bash
-WHATSAPP_TOKEN=Token obtained from [Meta's developer platform](https://developers.facebook.com/apps/)
-WHATSAPP_VERIFY_TOKEN=You create this token and place the same value in your [Meta's developer platform](https://developers.facebook.com/apps/)
-GHL_API_KEY= Obtained in the settings of your go high level account.
-GHL_LOCATION_ID= Same as above.
-```
+- `WHATSAPP_TOKEN` = Token obtained from [Meta's developer platform](https://developers.facebook.com/apps/)
+- `WHATSAPP_VERIFY_TOKEN` = You create this token and place the same value in your [Meta's developer platform](https://developers.facebook.com/apps/)
+- `GHL_API_KEY` = Obtained in the settings of your GoHighLevel account.
+- `GHL_LOCATION_ID` = Same as above.
 
 ### 3. Build and start the services
 The project uses docker containers. To run the containers use the following command:
