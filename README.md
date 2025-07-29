@@ -26,7 +26,7 @@ The project uses **Docker Compose** to orchestrate the following services:
 ### 1. Clone the repository
 
 ```bash
-git [clone https://github.com/your-username/llama3-chatbot.git](https://github.com/GabrielGlzSa/DCMChatbotTest.git)
+git clone https://github.com/GabrielGlzSa/DCMChatbotTest.git
 cd DCMChatbotTest
 ```
 
