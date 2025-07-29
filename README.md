@@ -63,6 +63,7 @@ ngrok 8080
 Only two routes were implemented. Nonetheless, more can implemented to handle incoming messages from Facebook, Instagram, etc.
 
 📬 Webhook Endpoints
+
 POST /test_crm → Receives messages from GHL chat widget
 
 POST /whatsapp → Receives WhatsApp messages
