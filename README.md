@@ -108,7 +108,7 @@ The chatbot uses LangGraph to narrow the possible ways the customer can interact
 
 - **`submit_contact_node`**
   - Common endpoint for valid conversations.
-  - Submits collected contact info to external systems (e.g., GHL, Sheets) once all required information has been gathered.
+  - Submits collected contact info to external systems (e.g., GHL, [Google Sheets](https://docs.google.com/spreadsheets/d/1ghZOXBjthIWKW5G4zUllSjr_l4iEDlgIge2bEtgl7Zk/edit?usp=sharing) once all required information has been gathered.
 
 - **`fallback_node`**
   - Handles unrecognized or invalid input.
