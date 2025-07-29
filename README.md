@@ -26,13 +26,13 @@ The project uses **Docker Compose** to orchestrate the following services:
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/your-username/llama3-chatbot.git
-cd llama3-chatbot
+git [clone https://github.com/your-username/llama3-chatbot.git](https://github.com/GabrielGlzSa/DCMChatbotTest.git)
+cd DCMChatbotTest
 ```
 
 ### 2. Create an .env file
 
-For security, all API keys are stored in an .env file. You need to fill the following information.
+For security, all API keys are stored in an .env file in the project's directory. You must fill the following information.
 
 - `WHATSAPP_TOKEN` = Token obtained from [Meta's developer platform](https://developers.facebook.com/apps/)
 - `WHATSAPP_VERIFY_TOKEN` = You create this token and place the same value in your [Meta's developer platform](https://developers.facebook.com/apps/)
@@ -101,7 +101,7 @@ The chatbot uses LangGraph to narrow the possible ways the customer can interact
     - ➜ `greetings_node`: Responds to greetings like "hi", "hello", etc. and asks for contact information as the profession is a requirement to access to the services branch.
   
   - **Services (`services`)**
-    - ➜ `services_node`: Handles inquiries about services offered. Only accessible if profession has been provided. This node uses Retrieval Augmented Generation (RAG) to answer questions using the text files located in `data/documents/`.
+    - ➜ `services_node`: Handles inquiries about services offered. Only accessible if profession has been provided. This node uses Retrieval Augmented Generation (RAG) to answer questions using the text files located in `data/documents/`. These files are used to fill the Qdrant database, which stores data as vectors, for semantic retrieval.
   
   - **Spam (`spam`)**
     - ➜ `fallback_node`: Ends the conversation by saying that it is only able to answer questions about the services provided by the company.
