@@ -1,0 +1,55 @@
+# ----------------------
+# Python
+# ----------------------
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# ----------------------
+# Virtual Environments
+# ----------------------
+.venv/
+venv/
+ENV/
+env/
+
+# ----------------------
+# Jupyter Notebooks
+# ----------------------
+.ipynb_checkpoints
+
+# ----------------------
+# VSCode settings
+# ----------------------
+.vscode/
+
+# ----------------------
+# OS files
+# ----------------------
+.DS_Store
+Thumbs.db
+
+# ----------------------
+# Logs and temp
+# ----------------------
+*.log
+*.tmp
+
+# ----------------------
+# Environment Variables
+# ----------------------
+.env
+.env.*
+
+# ----------------------
+# PostgreSQL dumps
+# ----------------------
+*.sql
+*.dump
